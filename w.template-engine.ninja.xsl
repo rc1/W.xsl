@@ -41,39 +41,21 @@
 	    [io]: mailto:io@theworkers.net
 	-->
     
-	<xsl:template match="*" mode="html-template" >
+	<xsl:template match="*" mode="template-engine" >
 		<xsl:param name="this" select="false()"/>
 		<xsl:param name="i" select="false()"/>
 		<xsl:element name="{name()}">
-			<xsl:apply-templates select="* | @* | text()" mode="html-template">
+			<xsl:apply-templates select="* | @* | text()" mode="template-engine">
 				<xsl:with-param name="this" select="$this"/>
 				<xsl:with-param name="i" select="$i"/>
 			</xsl:apply-templates>
 		</xsl:element>
 	</xsl:template>
 	
-	<xsl:template match="@*" mode="ninja" >
+	<xsl:template match="@*" mode="template-engine" >
 		<xsl:attribute name="{name(.)}">
 			<xsl:value-of select="." />
 		</xsl:attribute>
 	</xsl:template>   
-
-    
-<!--    <xsl:template match="*" mode="ninja-i" >
-        <xsl:param name="i" select="0" />
-        <xsl:element name="{name()}">
-            <xsl:apply-templates select="* | @* | text()" mode="ninja">
-                <xsl:with-param name="i">
-                    <xsl:value-of select="$i" /> 
-                </xsl:with-param>
-            </xsl:apply-templates>
-        </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="@*" mode="ninja" >
-        <xsl:attribute name="{name(.)}">
-            <xsl:value-of select="." />
-        </xsl:attribute>
-    </xsl:template> -->    
 
 </xsl:stylesheet>

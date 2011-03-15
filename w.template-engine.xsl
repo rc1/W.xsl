@@ -16,6 +16,6 @@
     -->
     
     <!-- includes -->
-    <xsl:include href="./w.template-engine.ninja.xsl" />
-    <xsl:include href="./w.template-engine.helper.email.xsl" />
+    <xsl:include href="w.template-engine.ninja.xsl" />
+    <xsl:include href="w.template-engine.helper.email.xsl" />
   </xsl:stylesheet>
