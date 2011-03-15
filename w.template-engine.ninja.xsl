@@ -41,33 +41,22 @@
 	    [io]: mailto:io@theworkers.net
 	-->
     
-   <xsl:template match="*" mode="ninja" >
-       <xsl:param name="this" select="false()"/>
-       <xsl:param name="i" select="false()"/>
-       <xsl:element name="{name()}">
-           <xsl:choose>
-               <xsl:when test="$this">
-                   <xsl:apply-templates select="* | @* | text()" mode="ninja">
-                       <xsl:with-param name="this" select="$this"/>
-                   </xsl:apply-templates>
-               </xsl:when>
-               <xsl:when test="$i">
-                   <xsl:apply-templates select="* | @* | text()" mode="ninja">
-                       <xsl:with-param name="i" select="$i"/>
-                   </xsl:apply-templates>
-               </xsl:when>
-               <xsl:otherwise>
-                   <xsl:apply-templates select="* | @* | text()" mode="ninja"/>
-               </xsl:otherwise>
-           </xsl:choose>
-       </xsl:element>
-   </xsl:template>
-
-   <xsl:template match="@*" mode="ninja" >
-       <xsl:attribute name="{name(.)}">
-           <xsl:value-of select="." />
-       </xsl:attribute>
-   </xsl:template> 
+	<xsl:template match="*" mode="html-template" >
+		<xsl:param name="this" select="false()"/>
+		<xsl:param name="i" select="false()"/>
+		<xsl:element name="{name()}">
+			<xsl:apply-templates select="* | @* | text()" mode="html-template">
+				<xsl:with-param name="this" select="$this"/>
+				<xsl:with-param name="i" select="$i"/>
+			</xsl:apply-templates>
+		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template match="@*" mode="ninja" >
+		<xsl:attribute name="{name(.)}">
+			<xsl:value-of select="." />
+		</xsl:attribute>
+	</xsl:template>   
 
     
 <!--    <xsl:template match="*" mode="ninja-i" >
