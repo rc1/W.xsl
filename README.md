@@ -11,7 +11,8 @@ Please do fork or [send comments to us](io@theworkers.net) even if only to let u
 
 ### Scope
 
-To bundle up XSL utilities & an templating engine useful with [Symphony CMS](http://symphony-cms.com/).
+- XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).
+- HTML templating engine for use with [Symphony CMS](http://symphony-cms.com/).
 
 #### Aims &amp; Aspirations:
 
