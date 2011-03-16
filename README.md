@@ -2,14 +2,12 @@
 
 ### XSL utilities
 
-A collection of XSL utilities for Symphony CMS.   
+A collection of XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).   
 Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspired by many.
 
 ** Work in Progress **
 
-Please do fork or [send comments to us](io@theworkers.net)
-
-@todo: move this to the wiki
+Please do fork or [send comments to us](io@theworkers.net). Even just to let us know this interests you.
 
 ## W.template-engine 
 
