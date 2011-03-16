@@ -173,7 +173,7 @@
         <!-- <img/> attributes -->
         <xsl:param name="id"/>
         <xsl:param name="class"/>
-        <xsl:param name="alt" select="'undefined'"/>
+        <xsl:param name="alt" select="' '"/>
         <xsl:param name="name"/>
         <xsl:param name="longdesc"/>
         <xsl:param name="align"/>
