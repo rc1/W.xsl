@@ -136,7 +136,7 @@ _Note that we are not passing any upload param in this case._
 When this template is used as a match rather than called by name, the DummyImage mode is effectively inaccessible.  
 Besides, it wouldn't make sense since you if have a match, then you have an upload.
 
-## W.template-engine (HTML Ninja)
+## W.template-engine (aka a XSL Ninja)
 
 Default import of all W.template-engine utilities:
 
