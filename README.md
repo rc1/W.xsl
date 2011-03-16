@@ -31,11 +31,11 @@ Replace with information form symphony:
 
 ## W.template-engine.email
 
-Email Obfusication
-
-@todo: include .js exmaple
-
+Email Obfuscation  
 turns user@domain.com into domain.com[at]user
+
+@todo: include .js exa.ple
+
 
 
 
