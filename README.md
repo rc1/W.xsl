@@ -3,7 +3,11 @@
 ### XSL utilities
 
 A collection of XSL utilities for Symphony CMS.   
-Created by The Workers unless otherwise stated.
+Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspired by many.
+
+** Work in Progress **
+
+Please do fork or [send comments to us](io@theworkers.net)
 
 @todo: move this to the wiki
 
