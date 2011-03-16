@@ -147,19 +147,17 @@ Default import of all W.template-engine utilities:
 
 To selective include W.template-engine create your own include file.
 
-### Style Guide
+### Suggested Style Guidelines
 
-Include an HTML file
+Include an HTML file:
 
      <cms include="template.html" />
-     
 	 <cms include="news.story.html" />
 	
-Replace with information form symphony
+Replace with information form symphony:
 
-	<cms include="navigation" />
-     
-	<cms include="title" />
+	<cms select="navigation" />
+	<cms select="title" />
 
 
 ## W.template-engine.email
