@@ -14,7 +14,7 @@ Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspir
 
 ### Work in Progress
 
-Please do fork or [send comments to us](io@theworkers.net), if only to let us know this is of interest to you.
+Please do fork or [send comments to us](io@theworkers.net), if only to let us know this interests to you.
 
 ### Scope
 
