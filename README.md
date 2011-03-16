@@ -168,16 +168,16 @@ turns user@domain.com into domain.com[at]user
 
 ## W.data-time.xsl
 
-* Created by Nick Dunn
+* Created by Nick Dunn *
   
-Description:  
+### Description:  
   
 This is a date formatting utility. The named template "format-date" takes 2 parameters:  
 
 1. date - [required] takes an ISO date (2005-12-01)  
 2. format - [optional] takes a format string.  
 
-Format options:  
+### Format options:  
   
 Y - year in 4 digits e.g. 1981, 1992, 2008  
 y - year in 2 digits e.g. 81, 92, 08  
@@ -193,7 +193,7 @@ t - time in 12-hours e.g. 6:30pm
 W - weekday as a full word e.g. Monday, Tuesday  
 w - weekday in 3 letters e.g. Mon, Tue, Wed  
 
-Examples:  
+### Examples:  
   
 M       => January  
 d M     => 21 September  
