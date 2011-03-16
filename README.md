@@ -5,6 +5,77 @@ Created by The Workers unless otherwise stated.
 
 @todo: move this to the wiki
 
+## W.template-engine 
+
+(aka: an XSL Ninja to for use with HTML Templates)
+
+Default import of all W.template-engine utilities:
+
+1. W.template-engine.ninja.xsl 
+2. W.template-engine.helpers.xsl
+
+To selective include W.template-engine create your own include file.
+
+### Suggested Style Guidelines
+
+Include an HTML file:
+
+     <cms include="template.html" />
+	 <cms include="news.story.html" />
+	
+Replace with information form symphony:
+
+	<cms select="navigation" />
+	<cms select="title" />
+
+
+## W.template-engine.email
+
+Email Obfusication
+
+@todo: include .js exmaple
+
+turns user@domain.com into domain.com[at]user
+
+
+
+## W.data-time.xsl
+
+* Created by Nick Dunn *
+  
+### Description:  
+  
+This is a date formatting utility. The named template "format-date" takes 2 parameters:  
+
+1. date - [required] takes an ISO date (2005-12-01)  
+2. format - [optional] takes a format string.  
+
+### Format options:  
+  
+Y - year in 4 digits e.g. 1981, 1992, 2008  
+y - year in 2 digits e.g. 81, 92, 08  
+M - month as a full word e.g. January, March, September  
+m - month in 3 letters e.g. Jan, Mar, Sep  
+N - month in digits without leading zero  
+n - month in digits with leading zero  
+D - day with suffix and no leading zero e.g. 1st, 23rd  
+d - day in digits with leading zero e.g. 01, 09, 12, 25  
+x - day in digits with no leading zero e.g. 1, 9, 12, 25  
+T - time in 24-hours e.g. 18:30  
+t - time in 12-hours e.g. 6:30pm  
+W - weekday as a full word e.g. Monday, Tuesday  
+w - weekday in 3 letters e.g. Mon, Tue, Wed  
+
+### Examples:  
+  
+M       => January  
+d M     => 21 September  
+m D, y  => Sep 21st, 81  
+n-d-y   => 09-21-81  
+d/n/y   => 21/09/81  
+d/n/y t => 21/09/81 6:30pm  
+
+
 ## W.jit-image
 
 From: [http://github.com/tmslnz/Magical-JIT-Resizer](http://github.com/tmslnz/Magical-JIT-Resizer)
@@ -135,73 +206,3 @@ _Note that we are not passing any upload param in this case._
 
 When this template is used as a match rather than called by name, the DummyImage mode is effectively inaccessible.  
 Besides, it wouldn't make sense since you if have a match, then you have an upload.
-
-## W.template-engine 
-
-(aka: an XSL Ninja to for use with HTML Templates)
-
-Default import of all W.template-engine utilities:
-
-1. W.template-engine.ninja.xsl 
-2. W.template-engine.helpers.xsl
-
-To selective include W.template-engine create your own include file.
-
-### Suggested Style Guidelines
-
-Include an HTML file:
-
-     <cms include="template.html" />
-	 <cms include="news.story.html" />
-	
-Replace with information form symphony:
-
-	<cms select="navigation" />
-	<cms select="title" />
-
-
-## W.template-engine.email
-
-Email Obfusication
-
-@todo: include .js exmaple
-
-turns user@domain.com into domain.com[at]user
-
-
-
-## W.data-time.xsl
-
-* Created by Nick Dunn *
-  
-### Description:  
-  
-This is a date formatting utility. The named template "format-date" takes 2 parameters:  
-
-1. date - [required] takes an ISO date (2005-12-01)  
-2. format - [optional] takes a format string.  
-
-### Format options:  
-  
-Y - year in 4 digits e.g. 1981, 1992, 2008  
-y - year in 2 digits e.g. 81, 92, 08  
-M - month as a full word e.g. January, March, September  
-m - month in 3 letters e.g. Jan, Mar, Sep  
-N - month in digits without leading zero  
-n - month in digits with leading zero  
-D - day with suffix and no leading zero e.g. 1st, 23rd  
-d - day in digits with leading zero e.g. 01, 09, 12, 25  
-x - day in digits with no leading zero e.g. 1, 9, 12, 25  
-T - time in 24-hours e.g. 18:30  
-t - time in 12-hours e.g. 6:30pm  
-W - weekday as a full word e.g. Monday, Tuesday  
-w - weekday in 3 letters e.g. Mon, Tue, Wed  
-
-### Examples:  
-  
-M       => January  
-d M     => 21 September  
-m D, y  => Sep 21st, 81  
-n-d-y   => 09-21-81  
-d/n/y   => 21/09/81  
-d/n/y t => 21/09/81 6:30pm  
