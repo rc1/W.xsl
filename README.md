@@ -5,9 +5,46 @@
 A collection of XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).   
 Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspired by many.
 
-** Work in Progress **
+### Work in Progress
 
-Please do fork or [send comments to us](io@theworkers.net). Even just to let us know this interests you.
+Please do fork or [send comments to us](io@theworkers.net) even if only to let us know this is of interest to you.
+
+### Scope
+
+To bundle up XSL utilities & an templating engine useful with [Symphony CMS](http://symphony-cms.com/).
+
+#### Aims &amp; Aspirations:
+
+- Namespaced
+	- Keep detached from [Symphony CMS](http://symphony-cms.com/)
+	- Imperfect
+		- Identify & distigush framework 
+- Template Engine
+	- XSL independance
+		- Allow for editing by front-end developers
+			- Avoid XSL jargon
+			- Separation of Templates &amp; Logic (*admirable aspiration?*)
+				- Templates should be editable editable without touching XSL
+				- Simplicity in XSL for Pages (Symphony v3 Views)
+					- Intuitive syntax and logic for edit by a non-XSL specialised developer
+	- Use HTML syntax in Templates
+		-  <cms> tag
+			- separation of including templates file and CSM/Symphony Data
+				- see: W.template-engine suggested Style Guidelines
+	- Style Guidelines
+		- Develop an style implementation of the template engine
+			- Unified usage
+			- Allow for support
+			- Examples
+	- Documentation
+- Example Code
+	- XSL
+	- Possible Ensemble?
+- Tests
+	- Suggestions Welcomed
+- Supportive Frontend Libraries
+	- JavaScript Fragments
+	
 
 ## W.template-engine 
 
@@ -24,13 +61,13 @@ To selective include W.template-engine create your own include file.
 
 Include an HTML file:
 
-     <cms include="template.html" />
-	 <cms include="news.story.html" />
+    <cms include="template.html" />
+    <cms include="news.story.html" />
 	
 Replace with information form symphony:
 
-	<cms select="navigation" />
-	<cms select="title" />
+    <cms select="navigation" />
+    <cms select="title" />
 
 
 ## W.template-engine.email
