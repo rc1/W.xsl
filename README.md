@@ -5,11 +5,11 @@
 A collection of XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).   
 Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspired by many.
 
-### [Symphony CMS](http://symphony-cms.com/) Compatibility
+### Symphony CMS Compatibility
 
 - 2.2 &mdash; unsure
 - 2.1.2 &mdash; yes
-	- < 2.1.2 &mdash; unsure
+- < 2.1.2 &mdash; unsure
 
 
 ### Work in Progress
@@ -68,12 +68,12 @@ Please do fork or [send comments to us](io@theworkers.net), if only to let us kn
 
 (aka: an XSL Ninja to for use with HTML Templates)
 
-Default import of all W.template-engine utilities:
+Default import of all w.template-engine utilities:
 
 1. W.template-engine.ninja.xsl 
 2. W.template-engine.helpers.xsl
 
-To selective include W.template-engine create your own include file.
+To selective include w.template-engine create your own include file.
 
 ### Suggested Style Guidelines
 
