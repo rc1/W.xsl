@@ -132,7 +132,9 @@ d/n/y t => 21/09/81 6:30pm
 
 From: [http://github.com/tmslnz/Magical-JIT-Resizer](http://github.com/tmslnz/Magical-JIT-Resizer)
 
-Magical image resizer and <img/> tag generator, with fallback to [DummyImage generator][dummy].
+Image resizer using a Symphony CMS upload-field.  
+
+Generated <img/> tags. Fallbacks to [DummyImage generator][dummy].
 
 [dummy]: https://github.com/robphilp/Symphony-2-Dummyimage
 
