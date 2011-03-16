@@ -7,14 +7,14 @@ Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspir
 
 ### Work in Progress
 
-Please do fork or [send comments to us](io@theworkers.net) even if only to let us know this is of interest to you.
+Please do fork or [send comments to us](io@theworkers.net), if only to let us know this is of interest to you.
 
 ### Scope
 
 - XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).
 - HTML templating engine for use with [Symphony CMS](http://symphony-cms.com/).
 
-### Aims &amp; Aspirations:
+### Aims &amp; Aspirations
 
 - Namespaced
 	- Keep detached from [Symphony CMS](http://symphony-cms.com/)
@@ -46,6 +46,15 @@ Please do fork or [send comments to us](io@theworkers.net) even if only to let u
 - Supportive Frontend Libraries
 	- JavaScript Fragments
 	
+### Wishlist &amp; Watch What You Wish For(s)
+
+- w.xsl as a:
+	- jQuery of [Symphony CMS](http://symphony-cms.com/) and XSL
+		- A $.each() of the Muenchain Method
+		- A $.ninja *ha! disucss* 
+- [Symphony CMS Forum](http://symphony-cms.com/discuss/) Thread
+	- Work in Progress
+		- See: let us know this is of interest to you
 
 ## W.template-engine 
 
