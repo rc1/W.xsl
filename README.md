@@ -169,35 +169,35 @@ turns user@domain.com into domain.com[at]user
 ## W.data-time.xsl
 
 * Created by Nick Dunn
+  
+Description:  
+  
+This is a date formatting utility. The named template "format-date" takes 2 parameters:  
 
-Description:
+1. date - [required] takes an ISO date (2005-12-01)  
+2. format - [optional] takes a format string.  
 
-This is a date formatting utility. The named template "format-date" takes 2 parameters:
+Format options:  
+  
+Y - year in 4 digits e.g. 1981, 1992, 2008  
+y - year in 2 digits e.g. 81, 92, 08  
+M - month as a full word e.g. January, March, September  
+m - month in 3 letters e.g. Jan, Mar, Sep  
+N - month in digits without leading zero  
+n - month in digits with leading zero  
+D - day with suffix and no leading zero e.g. 1st, 23rd  
+d - day in digits with leading zero e.g. 01, 09, 12, 25  
+x - day in digits with no leading zero e.g. 1, 9, 12, 25  
+T - time in 24-hours e.g. 18:30  
+t - time in 12-hours e.g. 6:30pm  
+W - weekday as a full word e.g. Monday, Tuesday  
+w - weekday in 3 letters e.g. Mon, Tue, Wed  
 
-1. date - [required] takes an ISO date (2005-12-01)
-2. format - [optional] takes a format string.
-
-Format options:
-
-Y - year in 4 digits e.g. 1981, 1992, 2008
-y - year in 2 digits e.g. 81, 92, 08
-M - month as a full word e.g. January, March, September
-m - month in 3 letters e.g. Jan, Mar, Sep
-N - month in digits without leading zero
-n - month in digits with leading zero
-D - day with suffix and no leading zero e.g. 1st, 23rd
-d - day in digits with leading zero e.g. 01, 09, 12, 25
-x - day in digits with no leading zero e.g. 1, 9, 12, 25
-T - time in 24-hours e.g. 18:30
-t - time in 12-hours e.g. 6:30pm
-W - weekday as a full word e.g. Monday, Tuesday
-w - weekday in 3 letters e.g. Mon, Tue, Wed
-
-Examples:
-
-M       => January
-d M     => 21 September
-m D, y  => Sep 21st, 81
-n-d-y   => 09-21-81
-d/n/y   => 21/09/81
-d/n/y t => 21/09/81 6:30pm
+Examples:  
+  
+M       => January  
+d M     => 21 September  
+m D, y  => Sep 21st, 81  
+n-d-y   => 09-21-81  
+d/n/y   => 21/09/81  
+d/n/y t => 21/09/81 6:30pm  
