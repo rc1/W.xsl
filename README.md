@@ -1,9 +1,16 @@
-# w.xsl 
+# w.xsl [Alpha]
 
 ### XSL utilities
 
 A collection of XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).   
 Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspired by many.
+
+### [Symphony CMS](http://symphony-cms.com/) Compatibility
+
+- 2.2 &mdash; unsure
+- 2.1.2 &mdash; yes
+	- < 2.1.2 &mdash; unsure
+
 
 ### Work in Progress
 
