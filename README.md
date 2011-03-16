@@ -1,4 +1,6 @@
-# w.xsl &mdash; XSL utilities #
+# w.xsl 
+
+### XSL utilities
 
 A collection of XSL utilities for Symphony CMS.   
 Created by The Workers unless otherwise stated.
