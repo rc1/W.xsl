@@ -14,7 +14,7 @@ Please do fork or [send comments to us](io@theworkers.net) even if only to let u
 - XSL utilities for use with [Symphony CMS](http://symphony-cms.com/).
 - HTML templating engine for use with [Symphony CMS](http://symphony-cms.com/).
 
-#### Aims &amp; Aspirations:
+### Aims &amp; Aspirations:
 
 - Namespaced
 	- Keep detached from [Symphony CMS](http://symphony-cms.com/)
