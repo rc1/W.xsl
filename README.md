@@ -9,7 +9,7 @@ Created by [The Workers](http://theworkers.net/) unless otherwise stated. Inspir
 
 - 2.2 &mdash; unsure
 - 2.1.2 &mdash; yes
-- < 2.1.2 &mdash; unsure
+- less than 2.1.2 &mdash; unsure
 
 
 ### Work in Progress
