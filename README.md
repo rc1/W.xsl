@@ -88,7 +88,7 @@ Replace with information form symphony:
     <cms select="title" />
 
 
-## W.template-engine.email
+## w.template-engine.email
 
 Email Obfuscation  
 turns user@domain.com into domain.com[at]user
@@ -98,7 +98,7 @@ turns user@domain.com into domain.com[at]user
 
 
 
-## W.data-time.xsl
+## w.data-time.xsl
 
 * Created by Nick Dunn *
   
@@ -135,7 +135,7 @@ d/n/y   => 21/09/81
 d/n/y t => 21/09/81 6:30pm  
 
 
-## W.jit-image
+## w.jit-image
 
 From: [http://github.com/tmslnz/Magical-JIT-Resizer](http://github.com/tmslnz/Magical-JIT-Resizer)
 
