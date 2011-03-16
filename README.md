@@ -1,6 +1,6 @@
 # The Workers &mdash; XSL utilities #
 
-A collection of XSL utilities for Symphony CMS. 
+A collection of XSL utilities for Symphony CMS.   
 Created by The Workers unless otherwise stated.
 
 @todo: move this to the wiki
