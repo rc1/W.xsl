@@ -136,25 +136,31 @@ _Note that we are not passing any upload param in this case._
 When this template is used as a match rather than called by name, the DummyImage mode is effectively inaccessible.  
 Besides, it wouldn't make sense since you if have a match, then you have an upload.
 
-## W.template-engine (aka a XSL Ninja)
+## W.template-engine 
+
+(aka: an XSL Ninja to for use with HTML Templates)
 
 Default import of all W.template-engine utilities:
 
 1. W.template-engine.ninja.xsl 
 2. W.template-engine.helpers.xsl
 
-
-## W.template-engine.ninja
-
-@todo: Description
+To selective include W.template-engine create your own include file.
 
 ### Style Guide
 
-*Here*
+Include an HTML file
 
-e.g.
+     <cms include="template.html" />
+     
+	 <cms include="news.story.html" />
+	
+Replace with information form symphony
 
-      <cms foo="bar" />
+	<cms include="navigation" />
+     
+	<cms include="title" />
+
 
 ## W.template-engine.email
 
