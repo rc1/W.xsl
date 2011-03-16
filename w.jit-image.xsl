@@ -448,7 +448,7 @@
                     <xsl:message>Missing one value</xsl:message>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:message>Magical JIT: the image exceeds the maximum safe size. Depending on your server's RAM skillz you can change this setting in the Magical JIT Utility source.</xsl:message>
+                    <xsl:message>w.jit-image: image size not specified</xsl:message>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
