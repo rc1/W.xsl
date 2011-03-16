@@ -42,11 +42,12 @@ Please do fork or [send comments to us](io@theworkers.net), if only to let us kn
 	- XSL
 	- Possible Ensemble?
 - Tests
-	- Suggestions Welcomed
+	- Possible?
 - Supportive Frontend Libraries
 	- JavaScript Fragments
 	
-### Wishlist &amp; Watch What You Wish For(s)
+### Wish List
+*(aka: Watch What You Wish For)*
 
 - w.xsl as a:
 	- jQuery of [Symphony CMS](http://symphony-cms.com/) and XSL
